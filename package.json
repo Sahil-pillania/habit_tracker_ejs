@@ -1,0 +1,29 @@
+{
+  "name": "htracker",
+  "version": "1.0.0",
+  "description": "A simple habit tracker app developed using nodejs and EJS templates.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "Sahil",
+  "license": "ISC",
+  "bugs": {},
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.3",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.0",
+    "express-session": "^1.17.1",
+    "mongoose": "^5.9.25"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
