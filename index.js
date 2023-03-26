@@ -1,12 +1,12 @@
 const express = require("express");
 const mongoose = require("mongoose");
 const expressLayouts = require("express-ejs-layouts");
+require("dotenv").config();
 
 const app = express();
 
 //-----DB Config---------//
-const db =
-  "mongodb+srv://mongo:mongodb@cluster0.yopwdu5.mongodb.net/tracker?retryWrites=true&w=majority";
+const db = process.env.MONGO_URL;
 
 //------Connect to Mongo--------//
 mongoose
