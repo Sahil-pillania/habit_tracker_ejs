@@ -5,7 +5,8 @@ const expressLayouts = require("express-ejs-layouts");
 const app = express();
 
 //-----DB Config---------//
-const db = "mongodb://127.0.0.1:27017/habit_tracker";
+const db =
+  "mongodb+srv://mongo:mongodb@cluster0.yopwdu5.mongodb.net/tracker?retryWrites=true&w=majority";
 
 //------Connect to Mongo--------//
 mongoose
